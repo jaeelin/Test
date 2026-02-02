@@ -1,9 +1,9 @@
 local AssetLoader = {}
 
-local SupportedExtensions = {
-	"png",
-	"jpg",
-	"jpeg"
+local StatusFiles = {
+	"Status1.png",
+	"Status2.jpeg",
+	"Status3.jpg"
 }
 
 local function GetAsset(Path: string, Url: string)
@@ -16,13 +16,12 @@ local function GetAsset(Path: string, Url: string)
 	end
 end
 
-local chosen = math.random(3)
-local extension = SupportedExtensions[math.random(#SupportedExtensions)]
+local File = StatusFiles[math.random(#StatusFiles)]
 
 AssetLoader.Assets = {
 	StatusImage = GetAsset(
-		string.format("UDSPLOIT/assets/Status%d.%s", chosen, extension),
-		string.format("https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Rei/Status%d.%s", chosen, extension)
+		string.format("UDSPLOIT/assets/%s", File),
+		string.format("https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Rei/%s", File)
 	),
 }
 
