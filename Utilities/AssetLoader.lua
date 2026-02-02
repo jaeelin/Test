@@ -1,5 +1,11 @@
 local AssetLoader = {}
 
+local SupportedExtensions = {
+	"png",
+	"jpg",
+	"jpeg"
+}
+
 local function GetAsset(Path: string, Url: string)
 	if not isfile(Path) then
 		writefile(Path, game:HttpGet(Url))
@@ -10,14 +16,13 @@ local function GetAsset(Path: string, Url: string)
 	end
 end
 
+local chosen = math.random(3)
+local extension = SupportedExtensions[math.random(#SupportedExtensions)]
+
 AssetLoader.Assets = {
 	StatusImage = GetAsset(
-		"UDSPLOIT/assets/status.png",
-		string.format(
-			"https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Rei/Status%d.%s",
-			math.random(3),
-			({"png","jpg","jpeg"})[math.random(3)]
-		)
+		string.format("UDSPLOIT/assets/Status%d.%s", chosen, extension),
+		string.format("https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Rei/Status%d.%s", chosen, extension)
 	),
 }
 
