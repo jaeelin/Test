@@ -1,8 +1,8 @@
 local AssetLoader = {}
 
 local StatusFiles = {
-	"Status1.png",
-	"Status2.jpeg",
+	"Status1.jpg",
+	"Status2.jpg",
 	"Status3.jpg"
 }
 
