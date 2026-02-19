@@ -21,7 +21,7 @@ local File = StatusFiles[math.random(#StatusFiles)]
 AssetLoader.Assets = {
 	StatusImage = GetAsset(
 		string.format("UDSPLOIT/assets/%s", File),
-		string.format("https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Rei/%s", File)
+		string.format("https://raw.githubusercontent.com/jaeelin/Test/main/Assets/Images/%s", File)
 	),
 }
 
