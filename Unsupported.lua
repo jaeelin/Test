@@ -63,7 +63,7 @@ function Loader.New()
 	container.Name = "Container"
 	container.Parent = background
 	container.AnchorPoint = Vector2.new(0.5, 0)
-	container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	container.BackgroundColor3 = Color3.fromRGB(255, 100, 100)
 	container.BackgroundTransparency = 1
 	container.ImageTransparency = 1
 	container.ImageColor3 = Color3.fromRGB(255, 200, 200)
@@ -76,7 +76,7 @@ function Loader.New()
 	
 	local ui_stroke = Instance.new("UIStroke")
 	ui_stroke.Parent = container
-	ui_stroke.Color = Color3.fromRGB(255, 255, 255)
+	ui_stroke.Color = Color3.fromRGB(255, 100, 100)
 	ui_stroke.Thickness = 1.5
 	ui_stroke.Transparency = 1
 	ui_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
@@ -93,7 +93,7 @@ function Loader.New()
 	main_title.Position = UDim2.new(0, 0, 0.33, 0)
 	main_title.Size = UDim2.new(1, 0, 0.05, 0)
 	main_title.FontFace = Font.new("rbxassetid://12187365364")
-	main_title.TextColor3 = Color3.fromRGB(255, 255, 255)
+	main_title.TextColor3 = Color3.fromRGB(255, 100, 100)
 	main_title.TextScaled = true
 	
 	local text_constraint = Instance.new("UITextSizeConstraint")
@@ -103,7 +103,7 @@ function Loader.New()
 	local description = Instance.new("TextLabel")
 	description.Name = "Description"
 	description.Parent = background
-	description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	description.BackgroundColor3 = Color3.fromRGB(255, 100, 100)
 	description.BackgroundTransparency = 1
 	description.TextTransparency = 1
 	description.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -112,7 +112,7 @@ function Loader.New()
 	description.Size = UDim2.new(0.825, 0, 0.02, 0)
 	description.Font = Enum.Font.Gotham
 	description.Text = "https://discord.com/invite/rxpEc3pCMR"
-	description.TextColor3 = Color3.fromRGB(255, 255, 255)
+	description.TextColor3 = Color3.fromRGB(255, 100, 100)
 	description.TextScaled = true
 	description.TextSize = 14
 	description.TextWrapped = true
@@ -124,7 +124,7 @@ function Loader.New()
 	local text = Instance.new("TextLabel")
 	text.Name = "Text"
 	text.Parent = background
-	text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	text.BackgroundColor3 = Color3.fromRGB(255, 100, 100)
 	text.BackgroundTransparency = 1
 	text.TextTransparency = 1
 	text.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -133,7 +133,7 @@ function Loader.New()
 	text.Size = UDim2.new(1, 0, 0.035, 0)
 	text.Font = Enum.Font.Gotham
 	text.Text = string.format("Hello %s, UDSPLOIT does NOT support this game!", LocalPlayer.Name)
-	text.TextColor3 = Color3.fromRGB(255, 255, 255)
+	text.TextColor3 = Color3.fromRGB(255, 100, 100)
 	text.TextScaled = true
 	text.TextSize = 14
 	text.TextWrapped = true
@@ -145,7 +145,7 @@ function Loader.New()
 	local text2 = Instance.new("TextLabel")
 	text2.Name = "Text2"
 	text2.Parent = background
-	text2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	text2.BackgroundColor3 = Color3.fromRGB(255, 100, 100)
 	text2.BackgroundTransparency = 1
 	text2.TextTransparency = 1
 	text2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -154,7 +154,7 @@ function Loader.New()
 	text2.Size = UDim2.new(1, 0, 0.04, 0)
 	text2.Font = Enum.Font.Gotham
 	text2.Text = "If you would like to request a script for this game, please join our discord server."
-	text2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	text2.TextColor3 = Color3.fromRGB(255, 100, 100)
 	text2.TextScaled = true
 	text2.TextSize = 14
 	text2.TextWrapped = true
@@ -176,7 +176,7 @@ function Loader.New()
 	discord.Size = UDim2.new(0.25, 0, 0.055, 0)
 	discord.Font = Enum.Font.SourceSans
 	discord.Text = "Copy discord"
-	discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+	discord.TextColor3 = Color3.fromRGB(255, 100, 100)
 	discord.TextScaled = true
 	discord.TextSize = 14
 	discord.TextWrapped = true
@@ -192,7 +192,7 @@ function Loader.New()
 	local ui_stroke_2 = Instance.new("UIStroke")
 	ui_stroke_2.Parent = discord
 	ui_stroke_2.Transparency = 1
-	ui_stroke_2.Color = Color3.fromRGB(255, 255, 255)
+	ui_stroke_2.Color = Color3.fromRGB(255, 100, 100)
 	ui_stroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 	
 	local tweenable = {
