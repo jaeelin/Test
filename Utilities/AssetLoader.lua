@@ -1,9 +1,9 @@
 local AssetLoader = {}
 
 local StatusFiles = {
-	"Status1.jpg",
-	"Status2.jpg",
-	"Status3.jpg"
+	"Status1.webp",
+	"Status2.webp",
+	"Status3.webp"
 }
 
 local function GetAsset(Path: string, Url: string)
