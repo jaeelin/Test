@@ -111,7 +111,7 @@ function Loader.New()
 	description.Position = UDim2.new(0.085, 0, 0.38, 0)
 	description.Size = UDim2.new(0.825, 0, 0.02, 0)
 	description.Font = Enum.Font.Gotham
-	description.Text = "https://discord.com/invite/uxd"
+	description.Text = "https://discord.com/invite/rxpEc3pCMR"
 	description.TextColor3 = Color3.fromRGB(255, 255, 255)
 	description.TextScaled = true
 	description.TextSize = 14
@@ -221,7 +221,7 @@ function Loader.New()
 	gui.Enabled = true
 	
 	discord.MouseButton1Click:Connect(function()
-		setclipboard("https://discord.com/invite/uxd")
+		setclipboard("https://discord.com/invite/rxpEc3pCMR")
 		WindowFunctions:Unload()
 	end)
 
